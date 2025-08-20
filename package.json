@@ -1,0 +1,14 @@
+{
+  "name": "voice-form-copilot",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:desktop": "npm --workspace=apps/desktop run dev",
+    "build:desktop": "npm --workspace=apps/desktop run build",
+    "dev:helper": "npm --workspace=apps/helper-macos run dev || true"
+  }
+}
+
